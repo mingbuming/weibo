@@ -30,6 +30,7 @@
 				</div>
 
 				<button type="submit" class="btn btn-primary">注册</button>
+				{{ csrf_field() }}
 			</form>
 		</div>
 	</div>
